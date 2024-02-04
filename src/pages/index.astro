@@ -1,9 +1,12 @@
 ---
+import Buble from "../components/Buble.svelte";
+import Counte from "../components/Counte.svelte";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-  <div>asd</div>
+  <Counte client:load  />
+  <Buble client:load />
 </Layout>
 
 <style></style>
